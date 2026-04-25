@@ -8,6 +8,8 @@ app.Configure(config =>
           .WithDescription("Get current weather for a city.")
           .WithExample("weather", "Rapperswil")
           .WithExample("weather", "London");
+    config.AddCommand<AboutCommand>("about")
+          .WithDescription("Show information about the author of this project.");
 });
 
 return await app.RunAsync(args);
