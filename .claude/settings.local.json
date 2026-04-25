@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(git *)",
-      "Bash(dotnet *)"
+      "Bash(dotnet *)",
+      "Bash(gh auth *)",
+      "Bash(gh pr *)"
     ]
   }
 }
