@@ -1,0 +1,1 @@
+- [Always use feature branches for PR workflow](feedback_feature_branch.md) — create feature branch before committing so a PR to main can be opened
