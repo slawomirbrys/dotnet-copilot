@@ -21,6 +21,9 @@ app.Configure(config =>
         math.AddCommand<MathMulCommand>("mul")
             .WithDescription("Multiply two numbers.")
             .WithExample("math", "mul", "4", "7");
+        math.AddCommand<MathDivCommand>("div")
+            .WithDescription("Divide two numbers.")
+            .WithExample("math", "div", "10", "2");
     });
 });
 
