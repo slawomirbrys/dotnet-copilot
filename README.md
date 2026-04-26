@@ -22,6 +22,15 @@ dotnet run --project src -- math add 3 5
 # Sum of 3 + 5 is 8
 ```
 
+### `math sub <first> <second>`
+
+Subtracts the second number from the first and prints the result.
+
+```
+dotnet run --project src -- math sub 10 3
+# Difference of 10 - 3 is 7
+```
+
 ## Requirements
 
 - .NET 10 SDK

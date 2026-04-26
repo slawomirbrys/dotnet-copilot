@@ -15,6 +15,9 @@ app.Configure(config =>
         math.AddCommand<MathAddCommand>("add")
             .WithDescription("Add two numbers together.")
             .WithExample("math", "add", "3", "5");
+        math.AddCommand<MathSubCommand>("sub")
+            .WithDescription("Subtract two numbers.")
+            .WithExample("math", "sub", "10", "3");
     });
 });
 
