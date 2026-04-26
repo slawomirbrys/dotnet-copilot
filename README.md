@@ -40,6 +40,15 @@ dotnet run --project src -- math mul 4 7
 # Product of 4 * 7 is 28
 ```
 
+### `math div <first> <second>`
+
+Divides the first number by the second and prints the result.
+
+```
+dotnet run --project src -- math div 10 2
+# Quotient of 10 / 2 is 5
+```
+
 ## Requirements
 
 - .NET 10 SDK
