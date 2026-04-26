@@ -25,4 +25,4 @@ The app is a `Spectre.Console.Cli` command-line tool. Each command is a class in
 
 ## Git Workflow
 
-After completing tasks: commit with a descriptive message and ask to create a pull request to remote. Use `.slnx` for solution files — do not use `dotnet sln migrate` (not a valid CLI command); create `.slnx` files manually or via `dotnet new sln`.
+Before any file modified locally ensure that your local branch is different than the default one which is `main` or `master`. If local branch is the default one, create new according to the git-commit-pr skill and then follow the instructions.
