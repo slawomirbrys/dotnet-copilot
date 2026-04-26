@@ -10,6 +10,12 @@ app.Configure(config =>
           .WithExample("weather", "London");
     config.AddCommand<AboutCommand>("about")
           .WithDescription("Show information about the author of this project.");
+    config.AddBranch("math", math =>
+    {
+        math.AddCommand<MathAddCommand>("add")
+            .WithDescription("Add two numbers together.")
+            .WithExample("math", "add", "3", "5");
+    });
 });
 
 return await app.RunAsync(args);

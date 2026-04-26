@@ -13,6 +13,15 @@ dotnet run --project src -- weather Rapperswil
 dotnet run --project src -- weather London
 ```
 
+### `math add <first> <second>`
+
+Adds two numbers together and prints the result.
+
+```
+dotnet run --project src -- math add 3 5
+# Sum of 3 + 5 is 8
+```
+
 ## Requirements
 
 - .NET 10 SDK
