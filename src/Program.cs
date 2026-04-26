@@ -18,6 +18,9 @@ app.Configure(config =>
         math.AddCommand<MathSubCommand>("sub")
             .WithDescription("Subtract two numbers.")
             .WithExample("math", "sub", "10", "3");
+        math.AddCommand<MathMulCommand>("mul")
+            .WithDescription("Multiply two numbers.")
+            .WithExample("math", "mul", "4", "7");
     });
 });
 

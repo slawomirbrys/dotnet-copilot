@@ -31,6 +31,15 @@ dotnet run --project src -- math sub 10 3
 # Difference of 10 - 3 is 7
 ```
 
+### `math mul <first> <second>`
+
+Multiplies two numbers together and prints the result.
+
+```
+dotnet run --project src -- math mul 4 7
+# Product of 4 * 7 is 28
+```
+
 ## Requirements
 
 - .NET 10 SDK
